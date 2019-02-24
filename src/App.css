@@ -1,0 +1,37 @@
+.m-b-20{
+  margin-bottom: 20px
+}
+.m-r-10{
+  margin-right: 10px
+}
+.mg-c{
+  margin: auto
+}
+.navlink{
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 40px;
+}
+.navlink:hover{
+  text-decoration: none;
+  color: black;
+}
+.active1{
+  background-color: black;
+  color: white
+}
+.active1:hover{
+  color: white
+}
+.navbar{
+  padding-top:0;
+  padding-bottom:0;
+  margin-bottom: 30px;
+}
+.btn1{
+  width: 85px
+}
+.badge1{
+  width: 80px
+}
