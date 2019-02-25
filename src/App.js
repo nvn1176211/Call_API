@@ -1,20 +1,20 @@
 import React, { Component } from 'react';
 import './App.css';
 import Menu from './components/menu/Menu';
-import { Switch, BrowserRouter, Route } from 'react-router-dom';
+import { Switch, HashRouter, Route } from 'react-router-dom';
 import routes from './routes';
 
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <HashRouter>
         <div>
           <Menu />
           <Switch>
             {this.showContentMenu(routes)}
           </Switch>
         </div>
-      </BrowserRouter>
+      </HashRouter>
     );
   }
 
